@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>名古屋カフェサイト</title>
+
+  <style>
+    /* ページ全体 */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Arial", "Yu Gothic", sans-serif;
+      line-height: 1.6;
+      background-color: #f7f1e8;
+      color: #4a3728;
+      padding-bottom: 100px;
+    }
+
+    /* ヘッダー */
+    header {
+      background-color: #5a3e2b;
+      color: #fffaf3;
+      text-align: center;
+      padding: 35px 20px;
+      box-shadow: 0 3px 8px rgba(70, 45, 25, 0.15);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+      letter-spacing: 3px;
+    }
+
+    header p {
+      margin: 8px 0 0;
+      font-size: 14px;
+      color: #ead8c3;
+    }
+
+    /* メイン */
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    section {
+      background-color: #fffaf3;
+      padding: 30px;
+      margin-bottom: 25px;
+      border-radius: 14px;
+      border: 1px solid #eadbc8;
+      box-shadow: 0 4px 12px rgba(90, 62, 43, 0.08);
+    }
+
+    section h2 {
+      color: #6b472e;
+      border-bottom: 2px solid #c8a27a;
+      padding-bottom: 10px;
+      margin-top: 0;
+      font-size: 24px;
+    }
+
+    section p {
+      color: #5c4a3a;
+      font-size: 16px;
+    }
+
+    /* カフェ紹介部分 */
+    .cafe-box {
+      background-color: #f1e5d5;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    .cafe-box h3 {
+      color: #6b472e;
+      margin-top: 0;
+    }
+
+    /* リンク */
+    a {
+      color: #8a5a36;
+    }
+
+    /* フッター */
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #5a3e2b;
+      color: #fffaf3;
+      text-align: center;
+      padding: 15px;
+      box-shadow: 0 -3px 8px rgba(70, 45, 25, 0.15);
+    }
+
+    footer p {
+      margin: 5px;
+    }
+
+    footer a {
+      color: #ead8c3;
+      margin: 0 10px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    footer a:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+
+    /* スマートフォン対応 */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 24px;
+      }
+
+      main {
+        margin: 20px auto;
+        padding: 15px;
+      }
+
+      section {
+        padding: 20px;
+      }
+
+      section h2 {
+        font-size: 20px;
+      }
+
+      footer {
+        font-size: 13px;
+      }
+
+      footer a {
+        margin: 0 5px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ヘッダー -->
+  <header>
+    <h1>名古屋カフェサイト</h1>
+    <p>名古屋で見つける、ゆったりカフェ時間</p>
+  </header>
+
+  <!-- メイン -->
+  <main>
+
+    <section>
+      <h2>このサイトについて</h2>
+
+      <p>
+        このサイトは、名古屋のカフェについて知ることができる
+        カフェ情報サイトです。
+      </p>
+
+      <div class="cafe-box">
+        <h3>☕ 名古屋でカフェを楽しもう</h3>
+        <p>
+          おしゃれなカフェや落ち着いた雰囲気のお店など、
+          名古屋には魅力的なカフェがたくさんあります。
+          ゆっくりコーヒーを飲みながら、自分だけの時間を楽しんでみませんか？
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>お問い合わせ</h2>
+
+      <p>
+        ご質問やお問い合わせがありましたら、
+        下記の連絡先までお気軽にご連絡ください。
+      </p>
+
+      <p>
+        📧 メール：example@example.com
+      </p>
+    </section>
+
+  </main>
+
+  <!-- フッター -->
+  <footer>
+    <p>お問い合わせ：example@example.com</p>
+
+    <p>
+      <a href="#">Instagram</a>
+      <a href="#">X</a>
+      <a href="#">Facebook</a>
+    </p>
+  </footer>
+
+</body>
+</html>
